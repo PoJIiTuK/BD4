@@ -35,9 +35,6 @@ CREATE TABLE IF NOT EXISTS information (
   PRIMARY KEY (id))
 ENGINE = InnoDB;
 
-SELECT * FROM information WHERE year > 2000;
-
-
 
 CREATE TABLE IF NOT EXISTS albom (
  id INT NOT NULL AUTO_INCREMENT,
